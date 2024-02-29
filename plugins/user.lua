@@ -9,6 +9,7 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  { "sainnhe/edge" },
   {
     "folke/todo-comments.nvim",
     dependencies = { "nvim-lua/plenary.nvim" },
