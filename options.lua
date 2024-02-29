@@ -7,7 +7,7 @@ return {
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
-    guifont = 'Hack_Nerd_Font_Mono:h16',
+    guifont = "Hack_Nerd_Font_Mono:h16",
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
