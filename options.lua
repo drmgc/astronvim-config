@@ -7,6 +7,7 @@ return {
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
+    guifont = 'Hack_Nerd_Font_Mono:h16',
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
@@ -17,6 +18,12 @@ return {
     icons_enabled = true, -- disable icons in the UI (disable if no nerd font is available, requires :PackerSync after changing)
     ui_notifications_enabled = true, -- disable notifications when toggling UI elements
     resession_enabled = false, -- enable experimental resession.nvim session management (will be default in AstroNvim v4)
+
+    neovide_remember_window_size = true,
+
+    neovide_cursor_animation_length = 0.025,
+    neovide_cursor_trail_size = 0.1,
+    neovide_cursor_animate_in_insert_mode = false,
   },
 }
 -- If you need more control, you can use the function()...end notation
