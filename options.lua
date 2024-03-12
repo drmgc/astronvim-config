@@ -8,6 +8,7 @@ return {
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = true, -- sets vim.opt.wrap
     guifont = "Hack_Nerd_Font_Mono:h16",
+    background = "light",
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
